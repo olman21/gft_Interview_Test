@@ -1,0 +1,4 @@
+add circle 0 0 300
+add triangle 150 150 300 -150 0 -50
+add rectangle 50 40 500 350
+show image
