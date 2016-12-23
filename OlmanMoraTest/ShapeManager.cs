@@ -602,7 +602,7 @@ namespace OlmanMoraTest
                 if (!ValidArgs)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Circle requires: [Radius] | [X] | [Y] as number arguments");
+                    Console.WriteLine("Circle requires: [X] | [Y] | [Radius] as number arguments");
                     Console.ForegroundColor = ConsoleColor.White;
                     return;
                 }
@@ -751,7 +751,7 @@ namespace OlmanMoraTest
                 if (!ValidArgs)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Square requires: [SideLength OR Slength] | [X] | [Y] as number arguments");
+                    Console.WriteLine("Square requires: [X] | [Y] | [SideLength OR Slength] as number arguments");
                     Console.ForegroundColor = ConsoleColor.White;
                     return;
                 }
@@ -820,7 +820,7 @@ namespace OlmanMoraTest
                 if (!ValidArgs)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Rectangle requires: [Side OR Side1] | [Side2] | [X] | [Y] as number arguments");
+                    Console.WriteLine("Rectangle requires: [X] | [Y] | [Side OR Side1] | [Side2] as number arguments");
                     Console.ForegroundColor = ConsoleColor.White;
                     return;
                 }
