@@ -37,7 +37,7 @@ namespace OlmanMoraTest.Shapes
 
         private SolidBrush GetRandomColor()
         {
-            var r = new Random();
+            var r = new Random(DateTime.Now.Ticks.GetHashCode());
             var red = r.Next(0, byte.MaxValue + 1);
             var green = r.Next(0, byte.MaxValue + 1);
             var blue = r.Next(0, byte.MaxValue + 1);
